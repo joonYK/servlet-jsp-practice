@@ -14,4 +14,15 @@
             <url-pattern>/ch1Servlet</url-pattern>
         </servlet-mapping>
 
+        <servlet>
+            <servlet-name>ch3 Beer</servlet-name>
+            <servlet-class>ch3.beer.servlet.BeerSelect</servlet-class>
+        </servlet>
+    
+        <servlet-mapping>
+            <servlet-name>ch3 Beer</servlet-name>
+            <url-pattern>/selectBeer.do</url-pattern>
+        </servlet-mapping>
+
+            
 </web-app>
